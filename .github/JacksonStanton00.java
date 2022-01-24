@@ -1,4 +1,4 @@
-// APCSA, Randy Kaneer, Array Practice, v0.0, 01/24/2022
+// APCSA, Randy Kaneer, Array Practice, v0.5, 01/24/2022
 
 public class JacksonStanton00 {
     public static void main(String[] args) {
