@@ -1,4 +1,4 @@
-// APCSA, Randy Kaneer, Array Practice, v1.0, 01/24/2022
+// APCSA, Randy Kaneer, Array Practice, v1.5, 01/24/2022
 
 public class JacksonStanton00 {
     public static void main(String[] args) {
@@ -6,6 +6,7 @@ public class JacksonStanton00 {
         int[] myGrades = {100, 25, 15, -3, 0, 75, 35};
         double[] myBankAccount = {0.0, -1.25, 3.75, 456.99, 25.25, 12.123456, 3.14};
 
+        /*
         for (current_element = 0; current_element < carArr.length(); current_element++) {
             //Code to execute
             //Statement1 is executed once before the loop
@@ -13,8 +14,19 @@ public class JacksonStanton00 {
             //Statement3 is executed each time the loop runs
 
         }
-
-
+        */
+        for (String i : carArr ) {
+            //Code to execute
+            System.out.println(i);
+        }
+        for (int i : myGrades ) {
+            //Code to execute
+            System.out.println(i);
+        }
+        for (double i : myBankAccount ) {
+            //Code to execute
+            System.out.println(i);
+        }
 
     }
 
