@@ -1,4 +1,4 @@
-// APCSA, Randy Kaneer, Array Practice, v2.0, 01/24/2022
+// APCSA, Randy Kaneer, Array Practice, v3.0, 01/24/2022
 
 public class JacksonStanton00 {
     public static void main(String[] args) {
@@ -15,11 +15,20 @@ public class JacksonStanton00 {
 
         }
         */
+
+
+        for (int i = 0; i < carArr.length; i++) {
+            //System.out.println(i);
+            System.out.println(carArr[i]);
+        }
+
+        /*
         System.out.println(carArr[3]);
         //Once you create an array you cannot change the size
         //You can only change the data stored in the array
         carArr[0] = "Volkswagen Passat";
 
+        //Enhanced For loop, only works on arrays
         for (String i : carArr ) {
             //Code to execute
             System.out.println(i);
@@ -32,6 +41,7 @@ public class JacksonStanton00 {
             //Code to execute
             System.out.println(i);
         }
+        */
 
 
     }
