@@ -1,4 +1,4 @@
-// APCSA, Randy Kaneer, Array Practice, v3.0, 01/24/2022
+// APCSA, Randy Kaneer, Array Practice, v3.5, 01/26/2022
 
 public class JacksonStanton00 {
     public static void main(String[] args) {
@@ -14,15 +14,10 @@ public class JacksonStanton00 {
             //Statement3 is executed each time the loop runs
 
         }
-        */
-
-
         for (int i = 0; i < carArr.length; i++) {
             //System.out.println(i);
             System.out.println(carArr[i]);
         }
-
-        /*
         System.out.println(carArr[3]);
         //Once you create an array you cannot change the size
         //You can only change the data stored in the array
@@ -42,6 +37,18 @@ public class JacksonStanton00 {
             System.out.println(i);
         }
         */
+
+        for (int i = 0; i < carArr.length; i++){
+            if (carArr[i].length() % 2 == 0) {
+                System.out.println(carArr[i]);
+                System.out.println("this string has an even length.");
+            } else {
+                System.out.println(carArr[i]);
+                System.out.println("this string has an odd length.");
+            }
+
+        }
+
 
 
     }
