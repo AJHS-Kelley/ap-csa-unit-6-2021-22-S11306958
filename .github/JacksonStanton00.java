@@ -1,4 +1,4 @@
-// APCSA, Randy Kaneer, Array Practice, v3.5, 01/26/2022
+// APCSA, Randy Kaneer, Array Practice, v4.0, 01/26/2022
 
 public class JacksonStanton00 {
     public static void main(String[] args) {
@@ -36,8 +36,7 @@ public class JacksonStanton00 {
             //Code to execute
             System.out.println(i);
         }
-        */
-
+        
         for (int i = 0; i < carArr.length; i++){
             if (carArr[i].length() % 2 == 0) {
                 System.out.println(carArr[i]);
@@ -46,21 +45,24 @@ public class JacksonStanton00 {
                 System.out.println(carArr[i]);
                 System.out.println("this string has an odd length.");
             }
-
         }
+        */
+
+        //2D Arrays
+        int[][] twoDIntArr = {{7,8,-9,2},{8,5,6,-7}};
+
+        //System.out.println(twoDIntArr[0][3]);
+        //System.out.println(twoDIntArr[1][3]);
+
+        // Nested for loop
+        for (int i = 0; i < twoDIntArr.length; ++i ) {
+            for (int j = 0; j < twoDIntArr[i].length; ++j ) {
+                System.out.println(twoDIntArr[i][j]);
+            }
+        }
+        
 
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
 }
